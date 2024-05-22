@@ -1,0 +1,40 @@
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    padding-top: 150px; 
+}
+
+.project-container {
+    width: 10.5in;
+    background-color: #fff;
+    padding: 1in;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin: 50px 0; /* Top and bottom margin for spacing */
+}
+
+.project-container h4{
+    font-weight: normal;
+}
+
+.project-container ul{
+    margin-left: 20px;
+}
+
+.project-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.project-image img{
+    width: 800px;
+}
+
+.visual-outlinepic{
+    width: 500px;
+}
