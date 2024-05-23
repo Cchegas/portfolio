@@ -1,13 +1,13 @@
- .discrption{
+ .project-box{
    align-self: center;
-    text-align: center;
-    width: 10.5in;
-    background-color: #fff;
-    padding: 1in;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    margin: 50px 0; /* Top and bottom margin for spacing */
-    margin-top: 100px 0;
+   text-align: center;
+   width: 10.5in;
+   background-color: #fff;
+   padding: 1in;
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+   box-sizing: border-box;
+   margin: 50px 0; /* Top and bottom margin for spacing */
+   margin-top: 100px 0;
  }
 
  .content-wrapper {
@@ -15,4 +15,8 @@
    display: flex;
    justify-content: center; /* Centers content horizontally */
    padding-top: 150px; 
+}
+.discrption{
+   text-align: left;
+   margin-top: 50px;
 }
