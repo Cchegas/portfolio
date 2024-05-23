@@ -54,6 +54,8 @@ span {
     padding: 33px 10%;
     padding-top: 150px; 
     background-color: black;
+    justify-content: center;
+    
 }
 
 .home-content {
