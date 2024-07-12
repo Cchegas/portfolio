@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Centered Resume</title>
+        <link rel="stylesheet" href="../css/indexstylesheet.css">
+        
+        <link rel="stylesheet" href = "../css/projectpage.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="../index.html" class="icon">Carl/<span>Jiachen</span></a>
+            <nav class="navigationbar">
+                <a href="../index.html">Portfolio</a>
+                <a href="../subpages/resume.html">Resume</a>
+                <a href="../subpages/projects.html">Projects</a>
+            </nav>
+        </header>
+
+        <div class = "content-wrapper">
+            <div class = "project-container">
+                <h1>1D Paku Paku Game + Enhanced with PHP</h1>
+                <br>
+                <div class = "project-image">
+                    <img src="../photo/pacmanlogo2.jpg" style="width: 800px">
+                </div>
+                <h3>Project Overview:</h3>
+                <br>
+                <h4>A 1-D version of the classic Pac-Man Arcade game where the goal is to collect all of the pellets to gain as high of a score as possible and traverse the next levels after collecting each pellet. There is also a ghost chasing you around to prevent you from eating all the pellete. However, by eating fruits in the game, you will be given the time to try eat the ghost to help you beat the level.
+                </h4>
+                <br>
+                <h3>Objectives:</h3>
+                <br>
+                <ul>
+                    <li>Enhance the 1-D Pacman game by adding a PHP server component to my Pacman GitHub code repository, building on models developed during lab sessions.</li>
+                    <li>Expose the Pacman game functionality through a JSON API and updated the JavaScript to make AJAX calls to the newly created API.
+                    </li>
+                    <li>All game state is stored on the PHP server using PHP $_SESSION, and the HTML/CSS/JavaScript focuses solely on displaying the current state of the game. The JavaScript does not calculate scores or track progress; it simply displays the current state.</li>
+                    <li>Implemented a game leaderboard showing the top 10 scores. For simplicity, this information is also stored in the PHP $_SESSION
+                    </li>
+                </ul>
+                <br>
+                <h3>Technical Outline:</h3>
+                <br>
+                
+                <ol>
+                    <li>Models:</li>
+                    <ul>
+                        <li>Manages Pacman, Ghost, map, score, size, and game status</li>
+                        <li>Manages Ghost’s location and direction.
+                        </li>
+                        <li>Manages Pacman’s location, power status, and direction.</li>
+                        <li>Includes methods for movement, direction, and power status updates.</li>
+                    </ul>
+                    <br>
+                    <li>API:</li>
+                    <ul>
+                        <li>Manages game state and leaderboard</li>
+                        <li>Provides endpoints for resetting the game, initializing the map, running the game loop, advancing levels, changing Pacman’s direction, recording scores, and reading the leaderboard.
+                            .</li>
+                      
+                    </ul>
+                    <br>
+                    <li>Frontend:</li>
+                    <ul>
+                        <li>HTML layout for the game interface, including inputs, buttons, and scoreboards.</li>
+                        <li>JavaScript (using jQuery) for handling UI interactions and making API calls.
+                            .</li>
+                        
+                    </ul>
+                    <br>
+                    <li>Leaderboard:</li>
+                    <ul>
+                        <li>Data .json File Stores the top 10 player scores in JSON format, ranked by username..</li>
+                        
+                    </ul>
+                </ol>
+                <br>
+                <h3>Visual Outline:</h3>
+                <br>
+                <ol>
+                    <li>Inital Map Size of the Game Board Created of Size 10
+                        :</li>
+                    <br>
+                    <div class = "project-image">
+                        <img class ="visual-outlinepic" src = "../photo/InitialMapSizeCreated.png" alt = "Board Game State">
+                    </div>
+                    <br>
+                    <li>Game Leaederboard of top 10 Scores updated:</li>
+                    <br>
+                    <div class = "project-image">
+                        <img class ="visual-outlinepic" src = "../photo/GameLeaderboard.png" alt = "Hub photo">
+                    </div>
+                    <br>
+                   
+                </ol>
+                
+            </div>
+        </div>
+    </body>
+</html>
